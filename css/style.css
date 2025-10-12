@@ -4,18 +4,57 @@
   --third-color: #ffbf00;
   --fourth-color: #ffcf40;
   --fifth-color: #ffdc73;
+  --sixth-color: #fff;
+  --seventh-color: #000;
   --font-color: #fff;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   background-image: url(/assets/img/fundo.jpg);
   background-size: cover;
   height: 100vh;
-  color: var(--font-color);
 }
 
+/*styled header*/
+
+.bg-color {
+  background-color: var(--fifth-color) !important;
+}
+
+.color-btn {
+  border-color: var(--seventh-color) !important;
+  background-color: var(--sixth-color) !important;
+  color: #000 !important;
+}
+
+.color-btn:hover {
+  background-color: var(--primary-color) !important;
+  color: var(--font-color) !important;
+}
+
+.navbar-brand img {
+  width: 120px;
+  border-radius: 1rem;
+}
+
+.div-ul {
+  margin-left: 3rem;
+ 
+}
+
+div ul li a:hover {
+  background-color: var(--primary-color) !important;
+  text-decoration: underline;
+  transform: translateX(5%);
+  color: var(--font-color) !important;
+  border-radius: 0.4rem;
+  transition: all 0.5s ease-in-out;
+}
+
+/*styled footer*/
