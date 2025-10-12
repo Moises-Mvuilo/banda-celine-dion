@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #a67c00;
+  --secondary-color: #bf9b30;
+  --third-color: #ffbf00;
+  --fourth-color: #ffcf40;
+  --fifth-color: #ffdc73;
+  --font-color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/assets/img/fundo.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: var(--font-color);
+}
+
