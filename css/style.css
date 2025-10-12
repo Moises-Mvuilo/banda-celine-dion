@@ -12,7 +12,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  
 }
 
 body {
@@ -25,12 +26,15 @@ body {
 
 .bg-color {
   background-color: var(--fifth-color) !important;
+  overflow: hidden;
 }
 
 .color-btn {
   border-color: var(--seventh-color) !important;
   background-color: var(--sixth-color) !important;
   color: #000 !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .color-btn:hover {
@@ -45,7 +49,6 @@ body {
 
 .div-ul {
   margin-left: 3rem;
- 
 }
 
 div ul li a:hover {
@@ -54,7 +57,16 @@ div ul li a:hover {
   transform: translateX(5%);
   color: var(--font-color) !important;
   border-radius: 0.4rem;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
+}
+
+/*Main elements and carousel*/
+
+.carousel-image {
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  background-image: cover !important;
 }
 
 /*styled footer*/
