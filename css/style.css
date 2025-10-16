@@ -33,8 +33,6 @@ body {
   border-color: var(--seventh-color) !important;
   background-color: var(--sixth-color) !important;
   color: #000 !important;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .color-btn:hover {
@@ -106,6 +104,13 @@ div ul li a:hover {
   background: var(--primary-color);
 }
 
+.responsive {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
 /*Responsividade*/
 
 @media (max-width: 576px) {
@@ -114,12 +119,16 @@ div ul li a:hover {
   }
 
   .center > p {
-    padding: 2rem;
+    padding: 1rem;
+  }
+  .responsive {
+    gap: 1rem;
+  }
+
+  .h2-size {
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 768px) {
-  .gallery-container {
-    grid-template-columns: 1fr;
-  }
 }
