@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +7,7 @@
     <meta name="keywords" content="albuns, musicas, shows" />
     <meta name="author" content="Celin dion" />
     <title>principal</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="shortcut icon"
       href="./assets/icon/logo.webp"
@@ -107,41 +107,42 @@
       </nav>
     </header>
 
-    f<!--Formulário-->
+    <!--Formulário-->
     <main>
       <h2 class="text-white text-center mt-5 fs-1">EQUIPA DA CELINE</h2>
       <form
-        action="/action.php" id="meuFormulario" method="post"
+        action="/action.php"
+        id="meuFormulario"
+        method="post"
         class="container form-container gap-2"
-       
       >
-        <label for="identificator" class="text-white">Nome:</label>
+        <label for="nome" class="text-white">Nome:</label>
         <input
           type="text"
-          name="nome" id="nome"
-          aria-label="name"
-          class="border-0 px-3 input-form" required
-          
+          name="nome"
+          id="nome"
+          aria-label="nome"
+          class="border-0 px-3 input-form"
         />
         <span id="erroNome" class="erro"></span>
 
         <label for="surname" class="d-flex text-white">Apelido:</label>
         <input
           type="text"
-          name="surname" id="surname"
+          name="surname"
+          id="surname"
           aria-label="surname"
-          class="border-0 px-3 input-form" required
-         
+          class="border-0 px-3 input-form"
         />
         <span id="erroSurname" class="erro"></span>
 
         <label for="data" class="text-white">Data de nascimento:</label>
         <input
           type="date"
-          name="data" id="data"
+          name="data"
+          id="data"
           aria-label="data"
-          class="border-0 px-3 input-form" required
-          
+          class="border-0 px-3 input-form"
         />
         <span id="erroData" class="erro"></span>
 
@@ -149,20 +150,20 @@
         <input
           type="email"
           aria-label="email"
-          name="email" id="email"
-          class="border-0 px-3 input-form" required
+          name="email"
+          id="email"
+          class="border-0 px-3 input-form"
           autocomplete="off"
-          
         />
         <span id="erroEmail" class="erro"></span>
 
-        <label for="telefone" class="text-white">Telefone</label>
+        <label for="phone" class="text-white">Telefone:</label>
         <input
-          type="phone"
-          name="phone" id="phone"
+          type="tel"
+          name="phone"
+          id="phone"
           aria-label="phone"
-          class="border-0 px-3 input-form" required
-        
+          class="border-0 px-3 input-form"
         />
         <span id="erroPhone" class="erro"></span>
 
@@ -170,19 +171,17 @@
         <input
           type="text"
           class="border-0 px-3 w-50 h-50"
-          name="message" id="message"
+          name="message"
+          id="message"
           maxlength="1024"
-          
         />
         <span id="erroMessage" class="erro"></span>
-  
+
         <button type="submit" class="btn btn-primary fs-4 mt-3">Enviar</button>
-     
+
         <div id="mensagemSucesso">✅ Formulário enviado com sucesso!</div>
       </form>
-
-      
-
+    </main>
     <!--Footer elements-->
     <footer>
       <div class="bg-color mt-4">

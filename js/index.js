@@ -1,4 +1,5 @@
-//mensagem de sucesso ao enviar o formulário corretamente.
+//Validação de formulário e mensagem de sucesso ao enviar o formulário corretamente.
+
 
 const form = document.getElementById("meuFormulario");
 const mensagem = document.getElementById("mensagemSucesso");
@@ -82,12 +83,6 @@ form.addEventListener("submit", function (event) {
   // Limpa os campos do formulário
   form.reset();
 
-  // Oculta a mensagem após 3 segundos
-  setTimeout(() => {
-    mensagem.style.display = "none";
-  }, 3000);
-});
-
 // Exibe a mensagem de sucesso
 mensagem.style.display = "block";
 
@@ -98,3 +93,4 @@ form.reset();
 setTimeout(() => {
   mensagem.style.display = "none";
 }, 3000);
+});
