@@ -1,7 +1,7 @@
 # banda-celine-dion
 desenvolvendo um web site para banda musical da celine dion
 
-### Criei este webpage fictício com tema banda musical Celine Dion, porque é uma acantora que admiro muito
+### Criei este webpage fictício com tema banda musical Celine Dion, porque é uma a cantora que admiro muito, ela é amelhor de todos oos tempos
 
 ## Tecnologias utilizadas: HTML, CSS, BOOTSTRAP e JAVASCRIPT
 
@@ -11,14 +11,15 @@ desenvolvendo um web site para banda musical da celine dion
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 
 
-<div><img src="./assets/img/homepage.png"></div>
-<div><img src="./assets/img/sobre.png"></div>
-<div><img src="./assets/img/albuns.png"></div>
-<div><img src="./assets/img/tour.png"></div>
-<div><img src="./assets/img/contacto.png"></div>
+<div><img src="assets/img/homepage.png"></div>
+<div><img src="assets/img/sobre.png"></div>
+<div><img src="assets/img/albuns.png"></div>
+<div><img src="assets/img/tour.png"></div>
+<div><img src="assets/img/contacto.png"></div>
 
 
 Link do webpage: https://banda-celine-dion.vercel.app/
+
 
 
 
