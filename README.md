@@ -10,13 +10,16 @@ desenvolvendo um web site para banda musical da celine dion
 ![BOOTSTRAP](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 
-<div>
-<img src="./omepage.png"></div>
-<img src="./img/print-2.png"></div>
-<img src="./img/print-3.png"></div>
-<img src="./img/print-4.png"></div>
+
+<div><img src="./assets/img/homepage.png"></div>
+<div><img src="./assets/img/sobre.png"></div>
+<div><img src="./assets/img/albuns.png"></div>
+<div><img src="./assets/img/tour.png"></div>
+<div><img src="./assets/img/contacto.png"></div>
+
 
 Link do webpage: https://banda-celine-dion.vercel.app/
+
 
 
 
